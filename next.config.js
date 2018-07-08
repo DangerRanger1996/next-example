@@ -1,6 +1,5 @@
 const withSass = require('@zeit/next-sass');
 const withTypescript = require('@zeit/next-typescript');
-// sass config
 const config = {
   cssModules: true,
   cssLoaderOptions: {

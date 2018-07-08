@@ -3,4 +3,24 @@
   background-color: #3b8cff;
   margin: -8px;
   height: 50px;
+  .List {
+    margin: 0 0 0 13px;
+    padding: 0;
+    .Element {
+      cursor: pointer;
+      margin-top: 13px;
+      display: inline;
+      list-style-type: none;
+      a {
+        color: #000;
+        text-decoration: none; /* remove styles from link component*/
+        font-size: 25px;
+        margin-right: 10px;
+      }
+      i {
+        margin-top: 13px;
+      }
+    }
+  }
 }
+

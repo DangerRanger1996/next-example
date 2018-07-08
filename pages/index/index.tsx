@@ -1,5 +1,4 @@
 import css from './style.scss';
-import Link from 'next/link';
 
 const Component = () => {
   return (
