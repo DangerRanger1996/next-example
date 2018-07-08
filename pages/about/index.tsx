@@ -1,11 +1,13 @@
-import css from './style.scss'
-import Slider from '../../components/Slider/slider'
+import styles from './style.scss'
 
 const Component = () => {
   return (
     <div>
-      <h1 className={css.Title}>About Page</h1>
-        <Slider />
+      <h1 className={styles.Title}>About</h1>
+      <p>
+        Add information about this page ...
+
+      </p>
     </div>
   )
 };

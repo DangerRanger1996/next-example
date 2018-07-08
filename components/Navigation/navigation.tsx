@@ -20,6 +20,13 @@ class Navigation extends React.Component {
                         </a>
                     </Link>
                 </li>
+                <li className={styles.Element}>
+                    <Link>
+                        <a href="/components">
+                            <i class="material-icons">featured_play_list</i>
+                        </a>
+                    </Link>
+                </li>
             </ul>
         </div>
     }
