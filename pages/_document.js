@@ -14,7 +14,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
         </Head>
-        <body className={styles.font}>
+        <body className={styles.Font}>
           <Navigation/>
           <Main />
           <NextScript />

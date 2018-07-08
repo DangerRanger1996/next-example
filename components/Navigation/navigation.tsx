@@ -1,17 +1,22 @@
 import Link from 'next/link'
 import styles from './style.scss'
+import React from 'react';
 
 export default () =>
     <div id="nav" className={styles.Navigation}>
         <ul className={styles.List}>
             <li className={styles.Element}>
-                <Link href="/" className="Element">
-                    Index
+                <Link>
+                    <a href="/">
+                        <i class="material-icons">home</i>
+                    </a>
                 </Link>
             </li>
             <li className={styles.Element}>
-                <Link href="/about">
-                    About
+                <Link>
+                    <a href="/about">
+                        <i class="material-icons">info</i>
+                    </a>
                 </Link>
             </li>
         </ul>
