@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest"
   },
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
@@ -14,5 +15,8 @@
     "node-sass": "^4.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "jest": "^23.3.0"
   }
 }
