@@ -5,7 +5,6 @@ const Component = () => {
   return (
     <div className={css.example}>
       <h1>Index Page</h1>
-        <Link href="/about">Link to about</Link>
     </div>
   )
 }

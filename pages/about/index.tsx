@@ -1,5 +1,5 @@
-import css from "./style.scss"
-import globalCss from "../style.scss"
+import css from './style.scss'
+import globalCss from '../style.scss'
 
 const Component = () => {
   return (
