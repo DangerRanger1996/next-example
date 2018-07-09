@@ -1,10 +1,21 @@
-import React from 'react'
-import styles from './styles.scss'
+/* eslint-env browser */
+import React from 'react';
+import styles from './styles.scss';
 
 class Slider extends React.Component {
-    render() {
-        return <input className={styles.Slider} type="range" />;
-    }
+  componentDidMount() {
+    const el = document.querySelector('.react-slider');
+
+    el.addEventListener('change', () => el.value);
+  }
+
+  render() {
+    return (
+      <div>
+        <input className={`react-slider ${styles.Slider}`} type="range" />
+      </div>
+    );
+  }
 }
 
 export default Slider;

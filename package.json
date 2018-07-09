@@ -4,7 +4,9 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --ext .tsx components pages",
+    "lint-fix": "eslint --fix --ext .tsx components pages"
   },
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
@@ -17,6 +19,11 @@
     "react-dom": "^16.4.1"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
     "jest": "^23.3.0"
   }
 }
