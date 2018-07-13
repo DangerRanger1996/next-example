@@ -4,7 +4,7 @@ import css from './style.scss';
 const Component = () => (
   <div>
     <h1 className={css.Title}>
-Index Page
+      Index Page
     </h1>
   </div>
 );

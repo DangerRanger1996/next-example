@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from '../../components/Slider/slider';
+import Maps from '../../components/Maps/maps';
 import styles from './styles.scss';
 
 const Component = () => (
@@ -12,6 +13,7 @@ const Component = () => (
         Slider Component
       </h2>
       <Slider />
+      <Maps city="Bern" />
     </div>
   </div>
 );
