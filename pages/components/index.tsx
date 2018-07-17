@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../../components/Slider/slider';
 import Maps from '../../components/Maps/maps';
+import Loading from '../../components/Loading/loading';
 import styles from './styles.scss';
 
 const Component = () => (
@@ -14,6 +15,7 @@ const Component = () => (
       </h2>
       <Slider />
       <Maps city="Bern" />
+      <Loading />
     </div>
   </div>
 );

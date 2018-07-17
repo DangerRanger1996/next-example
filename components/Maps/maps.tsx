@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Props from './typing';
 
 function Welcome({ city }) {
   return (
