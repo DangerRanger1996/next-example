@@ -6,7 +6,7 @@
     "start": "NODE_ENV=production node server.js",
     "test": "jest",
     "lint": "eslint --ext .tsx components pages",
-    "lint-fix": "eslint --fix --ext .tsx components pages"
+    "lint:fix": "eslint --fix --ext .tsx components pages"
   },
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
