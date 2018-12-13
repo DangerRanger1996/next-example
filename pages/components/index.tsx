@@ -24,7 +24,7 @@ const Component = () => (
       <h2>
         Loading examples
       </h2>
-      <Loading />
+      <Loading color={"red"} />
     </div>
   </div>
 );

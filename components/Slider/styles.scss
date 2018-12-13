@@ -2,9 +2,12 @@
   -webkit-appearance: none;
   width: 200px;
   height: 15px;
-  background: #d3d3d3;
+  background: #b2b0ab;
   outline: none;
   -webkit-transition: .2s;
   transition: opacity .2s;
   border-radius: 20px;
+  transform: rotate(90deg);
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
